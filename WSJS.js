@@ -114,3 +114,52 @@ if(age<18){
 }else{
   console.log("Meyet")
 }
+
+
+var month = 5
+
+switch(month){
+  case 1 : console.log("Janvier")
+           break
+  case 2: console.log("Fev")
+          break
+  case 5 : console.log("Mai")
+           break 
+  default : console.log("Error")
+}
+
+
+for(var i = 0; i<array.length ; i++){
+  console.log(array[i])
+}
+
+for(var index in array){
+  console.log(array[index])
+}
+
+for(var content of array){
+  console.log(content)
+}
+
+
+var i = 0
+
+while(i<10){
+  console.log("Bonjour")
+  i++
+}
+
+
+var i = 11
+do {
+  console.log("Bonjour")
+  i++
+} while (i<10);
+
+var i = 11
+
+while(i<10){
+  console.log("Bonjour")
+  i++
+}
+
